@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subeen Bohara | Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Subeen Bohara</div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#travelogues">Travelogues</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#recommendations">Recommendations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <input type="checkbox" id="dark-mode-toggle" class="toggle-checkbox">
+                    <label for="dark-mode-toggle" class="toggle-label">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <span class="toggle-ball"></span>
+                    </label>
+                </div>
+            </nav>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#travelogues">Travelogues</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    </header>
+
+    <section id="about" class="hero">
+        <div class="container" style="display: flex; align-items: center; gap: 20px;">
+            <div class="hero-content" style="flex: 1;">
+                <h1 id="animated-text"></h1> <!-- Animated Text Here -->
+                <p>As an undergraduate Civil Engineering student at Kathmandu University, I'm passionate about web development and artificial intelligence. I love building solutions that solve real-world problems and am constantly learning new technologies to enhance my skills.</p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+            <div>
+                <img src="subin.jpg" alt="Subeen Bohara" style="width: 450px; height: auto; border-radius: 10px;">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <p>Here's a comprehensive table of my technical skills and proficiency levels.</p>
+            
+            <table class="skills-table">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Development</td>
+                        <td class="skill-level">
+                            <span>70%</span>
+                            <div class="skill-level-bar">
+                                <div class="skill-level-fill" style="width: 80%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Presentation</td>
+                        <td class="skill-level">
+                            <span>70%</span>
+                            <div class="skill-level-bar">
+                                <div class="skill-level-fill" style="width: 85%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Communication</td>
+                        <td class="skill-level">
+                            <span>90%</span>
+                            <div class="skill-level-bar">
+                                <div class="skill-level-fill" style="width: 98%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>C/C++</td>
+                        <td class="skill-level">
+                            <span>50%</span>
+                            <div class="skill-level-bar">
+                                <div class="skill-level-fill" style="width: 65%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Autocad</td>
+                        <td class="skill-level">
+                            <span>60%</span>
+                            <div class="skill-level-bar">
+                                <div class="skill-level-fill" style="width: 15%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Engineering</td>
+                        <td class="skill-level">
+                            <span>30%</span>
+                            <div class="skill-level-bar">
+                                <div class="skill-level-fill" style="width: 5%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p>Here are some of my recent projects. Click "View Project" to see more details.</p>
+            
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Kathmandu University GPA calculator</h3>
+                    <p> I developed the KU GPA Calculator, a web-based tool designed specifically for students of Kathmandu University to easily calculate their semester and cumulative GPA. The project aims to simplify the process of GPA tracking by automating grade point calculations based on user input of courses,
+                         credit hours, and grades.</p>
+                    <a href="https://subeenbohara.github.io/gpa/" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                
+             <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>This responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+                    <a href="projects/portfolio-website.pdf" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blogs">
+        <div class="container">
+            <h2 class="section-title">Blogs</h2>
+            <p> My Blogs.</p>
+        <div class="blogs-container">
+                <div class="blog-item">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar-alt"></i> June 15, 2024</span>
+                        <span><i class="far fa-clock"></i> 5 min read</span>
+                    </div>
+                    <h3>From School to University: A Reality Check I Didn't See Coming
+                    </h3>
+                    <p>When I got accepted into Civil Engineering at Kathmandu University, I felt proud—really proud. I thought the hardest part was over.</p>
+                    <a href="blog.pdf" class="read-more" target="_blank">Read more <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                
+                <div class="blog-item">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar-alt"></i> Sept 21, 2025</span>
+                        <span><i class="far fa-clock"></i> 5 min read</span>
+                    </div>
+                    <h3>Mass Movement III
+                    </h3>
+                    <p>They didn't make the rules, so they're memeing their own</p>
+                    <a href="blog2.pdf" class="read-more" target="_blank">Read more <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="travelogues">
+        <div class="container">
+            <h2 class="section-title">Travelogues</h2>
+            <p class="section-subtitle">My travel experiences.</p>
+            
+            <div class="travelogues-container" id="traveloguesContainer">
+                <!-- Cards will be loaded dynamically via JavaScript -->
+            </div>
+            
+            <div class="loading-spinner" id="loadingSpinner">
+                <div class="spinner"></div>
+                <p>Loading more travelogues...</p>
+            </div>
+        </div>
+    </section>
+                
+                
+
+    </section>
+    <!-- Updated Education Section with Logos -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <p>My education has been a journey of self-discovery and growth.</p>
+            
+            <div class="education-item">
+                <div class="education-logo">
+                    <img src="kulogo.png" alt="Kathmandu University Logo" style="width: 170px; height: 170px; object-fit: contain;">
+                </div>
+                <div class="education-content">
+                    <div class="education-header">
+                        <div>
+                            <h3 class="education-title">Kathmandu University</h3>
+                            <p class="education-school">Bachelor in Civil Engineering</p>
+                        </div>
+                        <p class="education-date">2024 - 2028</p>
+                    </div>
+                    <p class="education-description">
+                        Currently pursuing my undergraduate degree with a focus on Hydropower.
+Relevant coursework includes Structural Analysis, Water Engineering, Fluid Mechanics, Hydraulic Structures, and Renewable Energy Systems. These courses have provided a strong foundation in both theoretical concepts and practical applications essential to the hydropower sector.
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="education-logo">
+                    <img src="1.png" alt="Ambition Logo" style="width: 170px; height: 170px; object-fit: contain;">
+                </div>
+                <div class="education-header">
+                    <div>
+                        <h3 class="education-title">Ambition Academy </h3>
+                        <p class="education-school">Higher Secondary Education (Science)</p>
+                    </div>
+                    <p class="education-date">2021 - 2023</p>
+                </div>
+                <p class="education-description">
+                    Completed my +2 education with majors in Physics, Chemistry, Mathematics, and Computer Science.
+                     Developed strong foundations in problem-solving and logical thinking.
+                </p>
+                <div class="skills-tags">
+                    <span class="skill-tag">GPA: 3.45/4.0</span>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Recommendations Section -->
+<section id="recommendations" class="recommendations-section">
+    <div class="container">
+        <h2 class="section-title">Recommendations</h2>
+        <p class="section-subtitle">What colleagues and mentors say about my work</p>
+        
+        <div class="recommendations-container">
+            <div class="recommendation-card">
+                <div class="recommendation-content">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="recommendation-text">Subeen is a dedicated, creative, and reliable solace who always brings his best to everything he does. 
+                        I'm proud to know him and excited to see where his talents take him. — Pranshu</p>
+                    <i class="fas fa-quote-right quote-icon"></i>
+                </div>
+                <div class="recommendation-author">
+                    <img src="pranshuy.png" alt="Recommender Photo" class="author-photo">
+                    <div class="author-info">
+                        <h4 class="author-name">Pranshu Parajuli</h4>
+                        <p class="author-title">Undergraduate student of law</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="recommendation-card">
+                <div class="recommendation-content">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="recommendation-text">Working with Subeen was a pleasure. His attention to detail and commitment to writing clean, maintainable code sets him apart. He's not only technically skilled but also communicates effectively with both technical and non-technical team members.</p>
+                    <i class="fas fa-quote-right quote-icon"></i>
+                </div>
+                <div class="recommendation-author">
+                    <img src=".jpeg" alt="Recommender Photo" class="author-photo">
+                    <div class="author-info">
+                        <h4 class="author-name">Annonymous</h4>
+                        <p class="author-title"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- New Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <div class="contact-content">
+            <h2 class="contact-title">Let's Connect</h2>
+            <p class="contact-text">Feel free to reach out for collaborations or just a friendly hello!</p>
+            
+            <div class="social-links">
+                <a href="https://github.com/subeenbohara" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/subeenbohara" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.facebook.com/subeenbohara" class="social-link" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:subeenbohara@gmail.com" class="social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Subeen Bohara. All rights reserved.</p>
+        </div>
+    </footer>
